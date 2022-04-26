@@ -1,0 +1,93 @@
+.contenedor{
+    height: 480px;
+    width: 1225px;
+    border: White 3px;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+.titulo{
+    height: 100px;
+    font-weight: 1225px;
+    border: white solid 3px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(245, 220, 220);
+    
+}
+
+.title{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    color: black;
+    text-align: center;
+
+}
+
+.caja1{
+    height: 470px;
+    width: 300px;
+    float: left;
+    border: solid 3px beige;
+    border-radius: 10px;
+}
+
+.leche{
+    height: 470px;
+    width: 300px;
+    float: left;
+}
+
+.cajaleche{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+.huevos{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.dispo{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    text-align: center;
+    color: black;
+}
+
+.cajacompra{
+    text-align: center;
+    border-radius: 120px;
+    padding: 5px 10px;
+    width: 200px;
+    height: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow' ;
+}
+
+.boton1{
+    background-image: url(../img/icons8-factura-30.png);
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+.boton2{
+    height:95px; 
+    width:95px;
+    background: white;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    border-radius: 120px;
+    padding: 5px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  
+
+}

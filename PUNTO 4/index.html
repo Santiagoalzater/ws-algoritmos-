@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/icons8-market-64.png">
+    <title>MARKET</title>
+  </head>
+  <body>
+    <div class="titulo">
+        <p class="title">MARKET</p>
+    </div>
+
+    <div class="contenedor">
+
+      <div class="caja1">
+        <img src="img/huevos.png" alt="caja_huevos" class="huevos" />
+        <p class="dispo">Disponibilidad <span>30</span></p>
+        <center><p class="dispo" name="precio"><span>$</span>15.000</p></center>
+        <center><input class="cajacompra" type="text" name="cantH" placeholder="Ingrese cantidad" /></center>
+        <center><button class="boton1" onclick="addH()"></button></center>
+      </div>
+
+      <div class="caja1">
+        <img src="img/leche.png" alt="caja_leche" class="cajaleche">
+        <p class="dispo">Disponibilidad <span>20</span></p>
+        <p class="dispo" name="precio"><span>$</span>3.500</p>
+        <center><input class="cajacompra" type="text" name="cantH" placeholder="Ingrese cantidad" /></center>
+        <center><button class="boton1" onclick="addH()"></button></center>
+      </div>
+
+      <div class="caja1">
+        <img src="img/pan.png" alt="pan" class="huevos" />
+        <p class="dispo">Disponibilidad <span>50</span></p>
+        <p class="dispo" name="precio"><span>$</span>2.000</p>
+        <center><input class="cajacompra" type="text" name="cantH" placeholder="Ingrese cantidad" /></center>
+        <center><button class="boton1" onclick="addP()" ></button></center>
+      </div>
+
+      <div class="caja1">
+        <img src="img/frutas.png" alt="fruta_mix" class="cajaleche">
+        <p class="dispo">Disponibilidad <span>50</span></p>
+        <p class="dispo" name="precio"><span>$</span>5.000</p>
+        <center><input class="cajacompra" type="text" name="cantH" placeholder="Ingrese cantidad" /></center>
+      <center><button class="boton1" onclick="addF()"></button></center> 
+      </div>
+    </div>
+
+    <div class="titulo">
+        <center>
+            <button  class="boton2" onclick="pagar()">PAGAR</button>
+            <button class="boton2" onclick="reload()">VACIAR CARRITO</button>
+        </center>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
